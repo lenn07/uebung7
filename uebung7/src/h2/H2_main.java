@@ -6,10 +6,11 @@ import java.util.Iterator;
 
 public class H2_main {
     public static void main(String[] args) {
-		int[] result = change(new int[] {2,7,1,9}, new int[] {2,7,1,9}, 3, 2);
-		for(int x = 0; x < result.length; x++) {
-			System.out.println(result[x]);
-		}
+    	int[] x = { 2,7,1,9 };
+		int[] y = { 2,7,1,9 };
+	
+		int[] z = change(x, y, 3, 2);
+
 	}
     
     public static int[] change(int[]a,int[]b,int start, int end) {
